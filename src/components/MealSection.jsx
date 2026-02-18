@@ -1,4 +1,4 @@
-import "../styles/meal.css"
+import "../styles/Meal.css"
 import mealImg from "../assets/meal.png"
 
 function MealSection() {
