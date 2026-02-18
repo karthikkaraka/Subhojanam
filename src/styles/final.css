@@ -1,0 +1,41 @@
+.final-cta {
+  background: linear-gradient(to right, #1e88c8, #2196f3);
+  padding: 120px 20px;
+  text-align: center;
+  color: white;
+}
+
+.final-cta h2 {
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+
+.cta-sub {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 25px;
+  line-height: 1.6;
+}
+
+.cta-quote {
+  font-style: italic;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+.cta-btn {
+  background: #f3f1ee;
+  color: #1e88c8;
+  padding: 18px 50px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}

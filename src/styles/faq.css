@@ -1,0 +1,36 @@
+.faq {
+  background: #f3f1ee;
+  padding: 100px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.faq-question span:last-child {
+  font-size: 20px;
+  color: #777;
+}
+
+.faq-answer {
+  margin-top: 15px;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}

@@ -1,0 +1,41 @@
+.special-section {
+  background: #dce6ee;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.special-section h2 {
+  color: #1e88c8;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.special-section p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.special-buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.outline-btn {
+  padding: 14px 30px;
+  border-radius: 40px;
+  border: 2px solid #1e88c8;
+  background: transparent;
+  color: #1e88c8;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.outline-btn:hover {
+  background: #1e88c8;
+  color: white;
+  transform: translateY(-3px);
+}

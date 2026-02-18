@@ -1,0 +1,77 @@
+.navbar {
+  width: 100%;
+  background: #efefef;
+}
+
+.navbar__container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 18px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo img {
+  height: 70px;
+  object-fit: contain;
+}
+
+.navbar__buttons {
+  display: flex;
+  gap: 15px;
+}
+
+
+.donate-btn {
+  background: #1e88c8;
+  color: white;
+  border: none;
+  padding: 12px 26px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.exempt-btn {
+  background: #d9eaf5;
+  color: #1e88c8;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.navbar__logo img {
+  height: 60px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.navbar__logo img:hover {
+  transform: translateY(-4px);
+}
+.donate-btn {
+  background: #1e88c8;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.donate-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+

@@ -1,0 +1,63 @@
+.impact-section {
+  background: #f3f1ee;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.impact-section h2 {
+  color: #1e88c8;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.impact-sub {
+  color: #666;
+  margin-bottom: 70px;
+}
+
+.impact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.impact-card {
+  max-width: 220px;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #e8e4dd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin: 0 auto 20px;
+}
+
+.impact-card h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.impact-card h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.impact-card p {
+  font-size: 14px;
+  color: #777;
+}
+.impact-card {
+  max-width: 220px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.impact-card:hover {
+  transform: translateY(-8px);
+}

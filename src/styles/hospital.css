@@ -1,0 +1,35 @@
+.hospitals {
+  background: #1e88c8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hospitals h3 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.hospital-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.hospital-pill {
+  background: #f3f1ee;
+  padding: 15px 25px;
+  border-radius: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+
+.hospital-pill:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}

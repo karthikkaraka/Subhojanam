@@ -1,0 +1,49 @@
+.quote-section {
+  background: #dce6ee;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-box {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+/* Left Image */
+.left img {
+  width: 350px;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* Right Content */
+.right {
+  flex: 1;
+}
+
+.quote-mark {
+  font-size: 60px;
+  color: #9ec3db;
+  margin-bottom: 10px;
+}
+
+.quote-text {
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.right h3 {
+  color: #1e88c8;
+  margin-bottom: 8px;
+}
+
+.right span {
+  color: #555;
+  font-size: 14px;
+}

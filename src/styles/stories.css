@@ -1,0 +1,81 @@
+.stories {
+  background: #f3f1ee;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.stories h2 {
+  font-size: 36px;
+  color: #1e88c8;
+  margin-bottom: 15px;
+}
+
+.stories-sub {
+  color: #555;
+  margin-bottom: 60px;
+}
+
+.stories-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.story-card {
+  background: white;
+  width: 330px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.story-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.quote {
+  font-size: 30px;
+  color: #cfe2f3;
+  margin-bottom: 15px;
+}
+
+.main-quote {
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.story-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.story-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  background: #1e88c8;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.story-user p {
+  font-size: 12px;
+  color: #777;
+  margin: 0;
+}

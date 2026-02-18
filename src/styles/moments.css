@@ -1,0 +1,54 @@
+.moments {
+  background: #1e88c8;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.moments h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.moments p {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.slide-track {
+  display: flex;
+  gap: 30px;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+.slide-track img {
+  height: 250px;
+  border-radius: 20px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+.meal-btn {
+  background: white;
+  color: #1e88c8;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 40px;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,89 @@
+.how-section {
+  background: #dce6ee;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.how-section h2 {
+  color: #1e88c8;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.sub {
+  color: #555;
+  margin-bottom: 70px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+/* Horizontal line */
+.steps::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 10%;
+  width: 80%;
+  height: 2px;
+  background: #a0c4dd;
+  z-index: 0;
+}
+
+.step {
+  max-width: 220px;
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  background: #1e88c8;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 24px;
+}
+
+.step h3 {
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Green info box */
+.green-box {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px 30px;
+  background: #cde9d9;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tick {
+  background: #0e8c63;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
