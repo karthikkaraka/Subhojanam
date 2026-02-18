@@ -1,4 +1,4 @@
-import "../styles/quote.css"
+import "../styles/Quote.css"
 import prabhu from "../assets/prabhu.jpg"
 
 function QuoteSection() {
